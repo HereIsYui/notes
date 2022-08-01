@@ -1,0 +1,1 @@
+!function(){"use strict";console.log(579),console.log("哈哈"),console.log("你好");const o={name:"Yui",age:26};console.log(o),o.age=16,console.log(o)}();
