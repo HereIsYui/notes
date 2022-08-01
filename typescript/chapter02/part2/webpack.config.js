@@ -40,7 +40,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HTMLWebpackPlugin({
-            template: './src/index.html'
+            template: './src/使用js的方式引入vuejs.html'
         }),
     ],
     // 用来设置引用模块

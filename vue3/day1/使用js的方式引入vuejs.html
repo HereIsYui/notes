@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="counter">
+    <!-- vue的语法，告诉vue，这个里面放了一个变量 -->
+    <p>{{num}}</p>
+    <p>{{uname}}</p>
+</div>
+<script>
+    const Couter = { // 配置对象
+        data: function () {
+            return {
+                num: 0,
+                uname: "张三"
+            }
+        }
+    }
+    let app = Vue.createApp(Couter).mount("#counter"); // 创建应用，将配置对象传入，mount进行挂载，和上面的元素相关联
+    console.log(app);
+</script>
+</body>
+</html>
