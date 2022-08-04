@@ -3,7 +3,7 @@
 export default {
   data() {
     return {
-      message: 'helloWorld',
+
     }
   },
   methods: {},
